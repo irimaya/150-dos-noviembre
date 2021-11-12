@@ -1,53 +1,20 @@
-
-/* Features */
-#features {
-  /* margin: 10px 0; */
-  padding: 0px;
+/* Mainheader */
+#mainheader {
+  height: 100%;
 }
 
-#features .features-row {
-  flex-wrap: wrap;
+/* Navbar */
+#navbar {
+  padding-left: 70px;
 }
 
-#features h2 {
+#navbar ul {
+  float: none;
+}
+
+/* What is it */
+#what,
+#why {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-#features .box-1 {
-  text-align: center;
-  margin: 10px 30px 0 30px
-}
-
-#features img {
-  width: 70%;
-}
-
-/* Promos */
-#promos {
-  padding: 40px 0 30px 0;
-}
-
-#promos .promos-row {
-  flex-wrap: wrap;
-}
-
-#promos .promo-box-1,
-#promos .promo-box-2,
-#promos .promo-box-3 {
-  margin: 0px;
-}
-
-/* Market */
-/* #market {
-  padding-bottom: 50px;
-}
- */
-#market h2 {
-  padding-bottom: 20px;
-}
-
-#market .market-row {
-  flex-wrap: wrap;
+  padding: 20px;
 }
